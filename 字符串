@@ -1,0 +1,3 @@
+string a
+getline(cin,a);
+//字符串读入有空格的字符
