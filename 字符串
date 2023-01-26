@@ -1,3 +1,5 @@
 string a
 getline(cin,a);
 //字符串读入有空格的字符
+
+tolower(str[i])//转换成小写字母
