@@ -23,3 +23,17 @@ int year = stoi(date.substr(0, 4));
 //stoi字符串转换成数字类型
 //date.substr(0,4)字符串从1开始走4位复制substr复制
 //date.substr(5, 2)是从第六个开始的
+
+//提取单词
+class Solution {
+public:
+    int countSegments(string s) {
+        istringstream is(s);
+        int n=0;
+        while(is>>s)
+        {
+            n++;
+        }
+        return n;
+    }
+};
