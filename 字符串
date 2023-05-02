@@ -37,3 +37,5 @@ public:
         return n;
     }
 };
+//判断是否为字母或数字（去除特殊符号）
+isalnum()
