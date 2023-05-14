@@ -37,5 +37,13 @@ public:
         return n;
     }
 };
+
+
+
+#include <ctype.h>
 //判断是否为字母或数字（去除特殊符号）
 isalnum()
+//判断是否是字母
+isalpha()
+//是否为数字
+isdigit()
